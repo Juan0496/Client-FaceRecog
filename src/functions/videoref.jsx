@@ -3,7 +3,7 @@ import React, { useRef, useEffect, useState } from 'react';
 export const Getvideo = (videoRef )=>{
 const videoref  = videoRef 
 const constrains = {
-    video:{width:320, height:240}       
+    video:{width:220, height:220}       
 }
 useEffect(() => {
     // Obtener el stream de video de la cámara

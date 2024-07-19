@@ -8,8 +8,8 @@ function Canvas(props) {
         // Obtener el stream de video de la cámara
         const video = videoRef.current;
         const canvas= canvasRef.current;    
-        canvas.width = (video.videoWidth)/8;
-        canvas.height = (video.videoHeight)/8;  
+        canvas.width = (video.videoWidth);
+        canvas.height = (video.videoHeight);  
         const ctx= canvas.getContext('2d');
         ctx.drawImage(video,0,0, canvas.width,canvas.height)            
         sendMessage(canvas,setImageUrl );

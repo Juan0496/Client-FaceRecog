@@ -3,14 +3,18 @@
   margin: 0 auto; 
   text-align: left;
 }
+
 .App-header{
   display: flex;
   align-items: center;
   height: 10vh;
   justify-content: center;
+  margin: 10px;  
+  text-align: center;
+  background-color: #60212e;
 }
 .titulo-foot{
-  height: 10vh;
+  height: max-content;
 }
 .sobre-app{
   display: flex;
@@ -27,7 +31,7 @@
   flex-direction: column;
   align-items: center;
   width: 60%;
-  background-color:  rgb(156, 145, 131);
+  background-color:  #f4f2ef;
   
 }
 .avatarcont{
@@ -41,4 +45,5 @@
 }
 .mi-mensaje{
   width: 70%;
+ 
 }

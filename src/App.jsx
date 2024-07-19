@@ -20,18 +20,19 @@ function App() {
             <h3> React:</h3>
             <p>Junto a Vite, para la elaboración del Frontend.</p>
             <h3> Fast Api:</h3>
-            <p>Sirvio para la creacion de una Api, que establece la comunicación con el servidor; el cual, procesará la imagen, mediante una red neuronal convolucional
-              entrenada previamente.
+            <p>Sirvio para la creacion de una API, que establece la comunicación con el servidor, quien procesará la imagen mediante una red neuronal convolucional;
+              la cuál, se entrenó previamente con el fin de reconocer tres estados de imagen; en primer lugar, una imagen con un rostro descubierto; en segundo lugar, un rostro cubierto con mascarilla;
+              y por ultimo, un rostro cubierto con un casco.
             </p>
-            <ul>Para el entrenamiento y procesamiento de las imagenes, se utilizaron las siguientes libreria de python.</ul>
-              <li>OpenCV</li>
-              <li>Numpy</li>
-              <li>PIL</li>
+            <ul>Para el entrenamiento y procesamiento de las imágenes, se utilizaron las siguientes librerias de python.</ul>
               <li>Io</li>
-              <li>Time</li>
+              <li>Numpy</li>
               <li>Matplotlib</li>
+              <li>Os</li>  
+              <li>PIL</li>
               <li>Tensorflow</li>
-              <li>Os</li>              
+              <li>Time</li>
+                          
           </div>        
            <div className='mi'>
             <div className='avatarcont'>

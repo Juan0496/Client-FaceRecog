@@ -6,13 +6,31 @@
 }
 .identImage{
     height: 90%;
+    border-radius: 9999px;
+
+}
+.identImageSelect{
+    height: 90%;
+    background-color:#60212e;
+    border-radius: 9999px;
 }
 .containerProc{
     height: 80vh;
     display: flex;
     flex-direction: row;    
-    width: 100%;
+    width: 100%;    
+    
 }
+
+@media (max-width: 1024px) {
+    .containerProc{
+        height: max-content;
+        display: flex;
+        flex-direction: column;    
+        width: 100%;
+        align-items: center;
+    }  }
+
 .videoCont{
     width: 70%;
     height: 100%;   
@@ -21,9 +39,18 @@
     align-items: stretch;
     justify-content: center;    
 }
+@media (max-width: 1024px) {
+    .videoCont{
+        width: 90%;
+        height: 100%;   
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;   
+    }}
 .video-cont{
     width: 100%;
-    height: 85%;   
+    height: 80%;   
     display: flex; 
     
     align-items: center;
@@ -37,12 +64,22 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 15%; 
+    height: 10%; 
+    
 }
+@media (max-width: 1024px) {
+    .button-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10vh; 
+        margin: 5px;
+    }}
 .button{
-    height: 50%;
+    height: 70%;
     border-radius: 0.5rem;
-    background-color: rgb(204, 132, 160);
+    background-color: #60212e;
     cursor: pointer;
    
 
@@ -51,10 +88,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
     height: 90%;
-    background-color: coral;
-}
+    background-color: #d8d1bd;
+    width: 40%;}
+@media (max-width: 1024px) {
+    .resultado{
+    
+    width: 90%;  
+    }}
 .result-cont{
     display: flex;
     align-items: center;
@@ -66,17 +108,18 @@
     height: 30%;
 }
 .image{
-    height: 90px;
-    width: 120px;
+    height: 250px;
+    width: 250px;
     background-color: rgb(207, 194, 219);
 }
 .datos-cont{
     display: flex;  
-    justify-content: center;
+    justify-content: space-between;
     height: 65%;
+    width: 100%;
     & .datos{
     
-    width: 100%;
+    width: 30%;
     padding-left: 0.25rem;
     padding-right: 0.25rem;
     padding-top: 0.25rem;
@@ -84,13 +127,14 @@
     display: grid;  
     
     & .text-cont{
-        background-color: rgb(224, 154, 103);
+        background-color: #60212e;
+        height: max-content;
     }
     
     }   
     & .captura{
         height: 100%;
-        width: 140px;
+        justify-content: center;
         display: flex;  
         justify-content: center;
         padding-left: 0.25rem;
@@ -103,6 +147,7 @@
 .mensaje{
     font-size: 0.875rem; /* 14px */
 line-height: 1.25rem; /* 20px */
+text-align: center;
 }
 .mensaj-cont{
     font-size: 0.875rem; /* 14px */

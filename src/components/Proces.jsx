@@ -5,14 +5,14 @@ import { Getvideo } from '../functions/videoref';
 import { Clear } from '../functions/boton';
 import { sendMessage} from '../functions/api';
 import './componentes.css'
-import descubierto from '../assets/descubierto.svg'
-import mascarilla from  '../assets/mascarilla.svg'
-import casco from '../assets/casco .svg'
+
+import Identificadores from './identificadores';
 function Proces() {
   const [boton, SetBoton]=useState(true);
   const [imageUrl, setImageUrl] = useState('');  
   const videoRef = useRef(null);
   const canvasRef = useRef(null);
+  
   //const canvasRef = useRef(null);
   Getvideo(videoRef);
   const clear = () => Clear(canvasRef,SetBoton);
@@ -20,11 +20,7 @@ function Proces() {
   const botfalse = () => SetBoton(false);
   return (
     <>
-    <div className='identificadores'>
-      <img className='identImage' src={casco}></img>
-      <img className='identImage' src={mascarilla}></img>
-      <img className='identImage' src={descubierto}></img>
-    </div>
+    <Identificadores imageUrl={imageUrl} boton={boton}></Identificadores>
     <div className="containerProc">
          
 

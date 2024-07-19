@@ -1,4 +1,3 @@
-import { useRef } from 'react';
 import incognito from '../assets/incognito.svg'
 import Canvas from './canvas';
 function Resultado(props) {
@@ -20,7 +19,7 @@ function Resultado(props) {
 return(
 <div className="resultado">
     <div className="result-cont">          
-        { boton ? <h1 className='mensaje'>Esperando resultado...</h1> : <img src={ imageUrl} className="image-result" ></img>}
+        { boton ? <h1 className='mensaje'>Esperando resultado...</h1> : <h1 className='mensaje' >{`99.9% de probabilidad, de que su rostro este ${imageUrl}`}</h1>}
     </div>   
     <div className="datos-cont">
         <div className="datos">
