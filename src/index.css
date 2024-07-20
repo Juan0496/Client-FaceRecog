@@ -1,6 +1,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; 
   background-color:#f4f2ef,
+  
 }
 
 body {
@@ -18,4 +19,5 @@ footer{
 }
 h1{
   color: white;
+
 }
