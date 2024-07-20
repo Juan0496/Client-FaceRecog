@@ -20,7 +20,7 @@ function Proces() {
   const botfalse = () => SetBoton(false);
   return (
     <>
-    <Identificadores imageUrl={imageUrl} boton={boton}></Identificadores>
+    
     <div className="containerProc">
          
 
