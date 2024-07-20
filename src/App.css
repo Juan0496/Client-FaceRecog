@@ -1,7 +1,9 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto; 
+  margin-right: 0;
+  margin-left: 0;
   text-align: left;
+  width: 100vw;
 }
 
 .App-header{
@@ -9,9 +11,18 @@
   align-items: center;
   height: 10vh;
   justify-content: center;
-  margin: 10px;  
+  flex-direction: row;
   text-align: center;
   background-color: #60212e;
+}
+
+.titcont2{
+  width: 59.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f2ef;
+ 
 }
 .titulo-foot{
   height: max-content;
@@ -31,17 +42,17 @@
   flex-direction: column;
   align-items: center;
   width: 60%;
-  background-color:  #f4f2ef;
+  background-color:#60212e
   
 }
 .avatarcont{
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 40%;
+  height: 20%;
 }
 .avatar{
-  height: 70%;
+  height: 100%;
 }
 .mi-mensaje{
   width: 70%;

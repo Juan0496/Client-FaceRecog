@@ -4,18 +4,15 @@ import incognito from './assets/incognito.svg'
 function App() {
   
   return (
-    <div>
-      <header className="App-header">
-        <h1>Covered Face Detector App</h1>        
-      </header>
+    <div>      
       <Proces />
       <footer >
         <div className='titulo-foot'>
-          <h1>Sobre Covered Face Detector App</h1>
+          <h1 className='text3'>Sobre Covered Face Detector App</h1>
       </div>
         <div className='sobre-app'>         
           <div className='descripcion-proy'>
-            <h2 > Hola, gracias por visitar Covered Face Detector App; en el desarrollo de esta aplicacion, se utilizaron las siguientes tecnologias:
+            <h2 > Hola, gracias por visitar Covered Face Detector; en el desarrollo de esta aplicacion, se utilizaron las siguientes tecnologias:
             </h2>
             <h3> React:</h3>
             <p>Junto a Vite, para la elaboración del Frontend.</p>
@@ -39,10 +36,10 @@ function App() {
             <img className='avatar' src={incognito}></img>
             </div>
             <div className='mi-mensaje'> 
-            <h2>Sobre el desarrollador:</h2>
-            <p>
+            <h2 className='text4'>Sobre el desarrollador:</h2>
+            <p className='text4'>
               Mi nombre Juan Moreno, soy mecatrónico de profesión, y entusiasta de las tecnologias IOT; elaboré este proyecto,
-              con el fin de poner en práctica los conocimientos que adquiri sobre desarrollo web, procesamiento de imagenes e inteligencia
+              con el fin de poner en práctica los conocimientos que adquiri sobre desarrollo web, procesamiento de imágenes e inteligencia
               artificial. 
     
             </p>

@@ -1,5 +1,6 @@
 import incognito from '../assets/incognito.svg'
 import Canvas from './canvas';
+import Identificadores from './identificadores';
 function Resultado(props) {
     
     const {boton,imageUrl,videoRef,sendMessage, setImageUrl,canvasRef}=props
@@ -18,18 +19,40 @@ function Resultado(props) {
     const time = `${hour}:${minutes}:${seconds} `
 return(
 <div className="resultado">
+    <div className="cont-cab">
+    <div className='cab-izq'>
+    <h1 className='text2'>Detector</h1>
+    
+    </div>        
+    </div>
+    <Identificadores imageUrl={imageUrl} boton={boton}></Identificadores>
     <div className="result-cont">          
         { boton ? <h1 className='mensaje'>Esperando resultado...</h1> : <h1 className='mensaje' >{`99.9% de probabilidad, de que su rostro este ${imageUrl}`}</h1>}
     </div>   
+    <div className='barrasup'>
+        <div className="cuad1"></div>
+        <div className="cuad2"></div>
+        <div className="cuad3"></div>
+    </div>
     <div className="datos-cont">
+        <div className='barracont'>
+            <div className="barrad1"></div>
+            <div className="barrad2"></div>
+        </div>
         <div className="datos">
-            <div className='text-cont'>
+            <div className='text-cont'>  
             <h1 className='mensaje'>Año:</h1>              
             {boton ? <h2 className='mensaj-cont'>...</h2> : <h2 className='mensaj-cont'>  {year}</h2>  }
-            <h1 className='mensaje'>Mes: </h1>
+            </div> 
+            <div className='text-cont'>
+            <h1 className='mensaje'>Mes: </h1>            
             {boton ? <h2 className='mensaj-cont'>...</h2> : <h2 className='mensaj-cont'>  {months[month]}</h2>  }
+            </div>
+            <div className='text-cont'>
             <h1 className='mensaje'>Dia:</h1>
             {boton ? <h2 className='mensaj-cont'>...</h2> : <h2 className='mensaj-cont'> {dayNames[day]} </h2>   } 
+            </div>
+            <div className='text-cont'>
             <h1 className='mensaje'>Hora:</h1>
             {boton ? <h2 className='mensaj-cont'>...</h2> : <h2 className='mensaj-cont'>   {time}</h2>  }
             </div>          
