@@ -12,10 +12,10 @@ function App() {
       </div>
         <div className='sobre-app'>         
           <div className='descripcion-proy'>
-            <h2 > Hola, gracias por visitar Covered Face Detector; en el desarrollo de esta aplicacion, se utilizaron las siguientes tecnologias:
+            <h2 > Hola, gracias por visitar Covered Face Detector; en el desarrollo de esta aplicacion, se utilizaron las siguientes tecnologías:
             </h2>
             <h3> React:</h3>
-            <p>Junto a Vite, para la elaboración del Frontend.</p>
+            <p>Junto a Vite, para la elaboración de la interfaz de usuario.</p>
             <h3> Fast Api:</h3>
             <p>Sirvio para la creacion de una API, que establece la comunicación con el servidor, quien procesará la imagen mediante una red neuronal convolucional;
               la cuál, se entrenó previamente con el fin de reconocer tres estados de imagen; en primer lugar, una imagen con un rostro descubierto; en segundo lugar, un rostro cubierto con mascarilla;
@@ -38,10 +38,9 @@ function App() {
             <div className='mi-mensaje'> 
             <h2 className='text4'>Sobre el desarrollador:</h2>
             <p className='text4'>
-              Mi nombre Juan Moreno, soy mecatrónico de profesión, y entusiasta de las tecnologias IOT; elaboré este proyecto,
+              Mi nombre Juan Moreno, soy mecatrónico de profesión, y especializado en el desarrollo IOT; elaboré este proyecto,
               con el fin de poner en práctica los conocimientos que adquiri sobre desarrollo web, procesamiento de imágenes e inteligencia
-              artificial. 
-    
+              artificial.     
             </p>
             </div>
           </div>

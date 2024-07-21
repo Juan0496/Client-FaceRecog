@@ -4,7 +4,7 @@ export const sendMessage = async (canvas,setImageUrl) => {
     canVas.toBlob((blob) => {
       const formData = new FormData();
       formData.append('file', blob, 'capture.png');
-      fetch('http://127.0.0.1:8000/recibir/', {
+      fetch('https://api-facerecog-6utdktfkha-uc.a.run.app/recibir/', {
         method: 'POST',
         body: formData,
       })

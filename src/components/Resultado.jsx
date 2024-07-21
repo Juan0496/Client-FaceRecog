@@ -1,4 +1,4 @@
-import incognito from '../assets/incognito.svg'
+import incognito from '../assets/rostro-limite.jpg'
 import Canvas from './canvas';
 import Identificadores from './identificadores';
 function Resultado(props) {
@@ -27,17 +27,15 @@ return(
     </div>
     <Identificadores imageUrl={imageUrl} boton={boton}></Identificadores>
     <div className="result-cont">          
-        { boton ? <h1 className='mensaje'>Esperando resultado...</h1> : <h1 className='mensaje' >{`99.9% de probabilidad, de que su rostro este ${imageUrl}`}</h1>}
+        { boton ? <h1 className='mensaje'>Esperando resultado...</h1> : <h1 className='mensaje' >{`Resultado: ${imageUrl}`}</h1>}
     </div>   
     <div className='barrasup'>
-        <div className="cuad1"></div>
-        <div className="cuad2"></div>
+
         <div className="cuad3"></div>
     </div>
     <div className="datos-cont">
         <div className='barracont'>
-            <div className="barrad1"></div>
-            <div className="barrad2"></div>
+           
         </div>
         <div className="datos">
             <div className='text-cont'>  

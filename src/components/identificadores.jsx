@@ -3,7 +3,7 @@ import mascarilla from  '../assets/mascarilla.svg'
 import casco from '../assets/casco .svg'
 export default function Identificadores(props){
     const {imageUrl,boton} = props
-    const resultados = ["con un casco","descubierto","con una mascarilla"]
+    const resultados = ["Su rostro esta con un casco","Su rostro esta descubierto","Su rostro esta con una mascarilla"]
     
 return(
 <div className='identificadores'>

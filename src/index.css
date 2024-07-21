@@ -1,7 +1,14 @@
-
-html , body{
+* { 
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html , body{
+  min-height: 100vh;
+  margin: 0 auto;
   background-color: #f4f2ef;
+  max-width: 1280px;
+  font-family: 'Roboto', sans-serif;
 }
 
 footer{
