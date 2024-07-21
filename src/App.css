@@ -17,6 +17,7 @@
 }
 .titulo-foot{
   height: max-content;
+  padding-bottom: 2rem;
 }
 .sobre-app{
   display: flex;
@@ -24,17 +25,35 @@
   justify-self: stretch;
   grid-template-columns: repeat(2, minmax(0, 1fr)); 
   align-content: space-around;
+  
 }
 .descripcion-proy{  
   align-content: space-around;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .mi{  
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 60%;
-  background-color:#60212e
+  align-items: center;  
+  background-color:#60212e;
+  width: max-content;
   
+}
+@media (max-width: 1024px) {
+  .mi{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color:#60212e  
+  }
+  .descripcion-proy{  
+    align-content: space-around;
+    width: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 .avatarcont{
   display: flex;
