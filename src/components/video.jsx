@@ -26,13 +26,12 @@ return(
            
            <p className='text4'>Especificaciones para un correcto funcionamiento:</p>  
                 <ul className='text4'>
-                <li>El rostro debe estar en el centro de la imagen y debe ser completamente visible.</li>
-                <li>Utilizar una cámara con 
-                 buena resolución y a color.</li>
-                <li>Tomar la captura en una 
-                zona iluminada.</li>                
+                <li>El rostro debe estar en el centro de la imagen.</li>
+                <li>La calidad de la imagen
+                    influye en el resultado.</li>                             
                 <li>El enfoque debe estar 
                 como máximo a 10 centímetros debajo de los hombros.</li>
+                <li>Los primeros intentos podrían no arrojar resultados; debido a la latencia de arranque del servidor.</li>
             </ul>
         </div> 
         <video ref={videoRef} className='video'/>   

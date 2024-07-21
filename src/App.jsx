@@ -38,8 +38,8 @@ function App() {
             <div className='mi-mensaje'> 
             <h2 className='text4'>Sobre el desarrollador:</h2>
             <p className='text4'>
-              Mi nombre Juan Moreno, soy mecatrónico de profesión, y especializado en el desarrollo IOT; elaboré este proyecto,
-              con el fin de poner en práctica los conocimientos que adquiri sobre desarrollo web, procesamiento de imágenes e inteligencia
+              Mi nombre Juan Moreno, soy mecatrónico de profesión, y especializado en desarrollo IOT; elaboré este proyecto,
+              con el fin de poner en práctica los conocimientos que adquirí sobre desarrollo web, procesamiento de imágenes e inteligencia
               artificial.     
             </p>
             </div>

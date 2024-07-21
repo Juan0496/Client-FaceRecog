@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef,  useState } from 'react';
 import Resultado from './Resultado';
 import Video from './video';
 import { Getvideo } from '../functions/videoref';

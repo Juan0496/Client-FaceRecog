@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import  {useEffect} from 'react';
 
 export const Getvideo = (videoRef )=>{
 const videoref  = videoRef 

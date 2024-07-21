@@ -46,6 +46,8 @@
         flex-direction: column;    
         width: 100%;
         align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }  }
 .cab-der{
     height: 10%;
@@ -91,6 +93,7 @@
 }
 .text4{
     color:#f4f2ef;
+    padding-bottom: 1rem;
 }
 
 .videoCont{
